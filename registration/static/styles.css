@@ -1,0 +1,51 @@
+/* CSS for navigation bar */
+.navbar {
+    background-color: #4DAE8B;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar .left {
+    flex: 1;
+  }
+  
+  .navbar .middle {
+    flex: 3;
+    text-align: center;
+  }
+  
+  .navbar .right {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+  }
+  
+  .navbar a:hover {
+    background-color: #367669;
+  }
+  
+  /* CSS for main content */
+  .main-content {
+    margin-top: 50px;
+  }
+  
+  /* CSS for footer section */
+  .footer {
+    background-color: #4DAE8B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
