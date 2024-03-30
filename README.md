@@ -1,1 +1,1 @@
-Project name: Diigtal Health Care
+Project name: Digital Health Care
