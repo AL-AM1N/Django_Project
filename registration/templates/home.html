@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+{% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css'%}">
 </head>
 <body>
-<h1> Home Page</h1>
-<p style="color:red">
-<button> <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a></button>
-</p>
+
+<!-- Navigation bar -->
+<div class="navbar">
+  <div class="left">
+    <a href="#">Logo</a>
+  </div>
+  <div class="middle">
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Appointment</a>
+    <a href="#">Emergency</a>
+    <a href="#">About</a>
+  </div>
+  <div class="right">
+    <a href="#">Profile</a>
+    <a href="{% url 'logout' %}" class="btn btn-primary">Logout</a>
+  </div>
+</div>
+
+<!-- Main content -->
+<div class="main-content">
+  <h2>Main Content Goes Here</h2>
+  <p>This is just a placeholder for the main content area.</p>
+</div>
+
+<!-- Footer section -->
+<div class="footer">
+  <p>Contact Info</p>
+</div>
+
 </body>
 </html>
